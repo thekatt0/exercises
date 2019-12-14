@@ -1,6 +1,6 @@
 num = input('Enter a number. ')
 
-if (int(num) % 4) == 0:
+if (int(num) % int(check)) == 0:
     print(str(num) + ' is divisible by 4.')
 
 elif (int(num) % 2) == 0:
