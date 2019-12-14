@@ -2,7 +2,7 @@ from datetime import datetime
 
 name = input('What is your name? ')
 age = input('What is your age? ')
-linesNumber = input('Enter another number. ')
+linesNumber = input('How many times should I print? ')
 currentYear = datetime.now().year
 
 x = 100 - int(age)
